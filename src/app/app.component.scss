@@ -1,0 +1,43 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    .title-container {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color:  rgb(222, 57, 57);
+    }
+    .content-container {
+        margin-top: 1rem;
+        display: flex;
+        .items-table-container {
+            // width: 50%;
+            flex: 1;
+            .items-table {
+                background-color: #EEEEEE;
+                border: outset aliceblue;
+                width: 100%;
+                text-align: center;
+                thead {
+                    background-color: rgb(208, 104, 104);
+                    color: whitesmoke;
+                }
+                tbody {
+                    background-color: rgb(183, 141, 141);
+                    color: whitesmoke;
+                    border: double
+                }
+            }
+        }
+        .item-input-form {
+            // width: 50%;
+            div {
+                display: flex;
+                input{
+                    margin-left: 0.5rem;
+                    flex: 1;
+                }
+            }
+        }
+    }
+}
